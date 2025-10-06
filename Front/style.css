@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1{
+    font-size: 50px;
+    color: gray;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding:30px;
+    border: 1px snow;
+    background: linear-gradient(90deg,rggba(2, 0, 35, 0.25) 0%, rgba(8, 8, 210, 0.21) 25%, rgba(0, 212, 250, 0.23) 50%);
+
+}
+
+.card{
+    border: 5px solid rgb(144, 112, 300);
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 11px;
+    background-color: rgb(238, 238, 240);
+    color: #241d1dcc;
+    border-radius: 15px;
+    box-shadow: rgb(124, 124, 253);
+    transition: all 300ms linear;
+}
+
+.card:hover{
+    cursor: pointer;
+    background: rgba(63, 62, 62, 0);
+    color: #ffffff;
+    border: 5px solid rgb(250, 245, 245);
+}
+
+.card img{
+    width:  auto;
+    height: 250px;
+    border-radius: 15px;
+}
